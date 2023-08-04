@@ -10,6 +10,10 @@ TechTogether online hackathon submission
 ## 🎨 Design
 
 ## 🛠 How we Built it
+- React
+- Auth0
+- Vite
+- Bootstrap
 
 ## ✨ Proud Achievements
 
