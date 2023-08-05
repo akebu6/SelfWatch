@@ -1,7 +1,6 @@
 import { Component } from "react";
-import { SelfCareTasks } from "./SelfCareTasks";
-import { Item } from "./Item";
-import { Preferences } from "./Preferences";
+import { Routes, Route, Navigate } from "react-router-dom";
+import SelfCareTasks from "../pages/SelfCareTasks";
 
 export function Body() {
   return (
@@ -14,9 +13,11 @@ export function Body() {
         div holding specific page
         I expect this to use useState or some such props etc
          */}
-        <SelfCareTasks />
-        <Item />
-        <Preferences />
+        {/* <Routes>
+          <Route path="/" element={<Body />}></Route>
+        </Routes> */}
+        {/* <Item />
+        <Preferences /> */}
       </div>
     </>
   );
