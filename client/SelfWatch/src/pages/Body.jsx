@@ -1,10 +1,10 @@
 import { Component } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import SelfCareTasks from "../pages/SelfCareTasks";
+import SelfCareTasks from "./SelfCareTasks";
 
 export function Body() {
   return (
-    <>
+    <div id="body">
       <h2 className="m-5">Variable Name</h2>
       <div>
         {/* I want a dynamic list with boolean check boxes for each element
@@ -19,6 +19,6 @@ export function Body() {
         {/* <Item />
         <Preferences /> */}
       </div>
-    </>
+    </div>
   );
 }
