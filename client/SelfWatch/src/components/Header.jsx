@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 export function Header() {
   return (
-    <Container className="bg-primary d-flex justify-content-between container-fluid">
+    <Container className="bg-primary d-flex justify-content-between width-auto h-25">
       <Navbar.Brand href="#home">Logo</Navbar.Brand>
       <h1>SelfWatch</h1>
       <p>profile</p>
