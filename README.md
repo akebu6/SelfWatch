@@ -1,5 +1,5 @@
 # SelfWatch
-TechTogether online hackathon submission 
+Empowering individuals to take control of their mental health by providing a personal monitoring and support system.
 
 ## 💡 Inspiration
 
@@ -11,13 +11,18 @@ TechTogether online hackathon submission
 
 ## 🛠 How we Built it
 - React
-- Auth0
+- Auth0 2.0
 - Vite
 - Bootstrap
+- MongoDB
 
 ## ✨ Proud Achievements
 
 ## 😤 Challenges Encountered
+Some of the changes that the team faced are:
+- Working with Auth0 for the first time. It proved quite challenging to work with Auth0 2.0
+- 
+
 
 ## 🙌 Insights from SelfWatch
 
