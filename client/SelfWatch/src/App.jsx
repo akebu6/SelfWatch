@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import "./App.css";
 // import { Container } from "react-bootstrap/Container";
 import { Header } from "./components/Header";

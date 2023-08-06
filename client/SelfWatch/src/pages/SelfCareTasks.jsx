@@ -9,7 +9,7 @@ export default function SelfCareTasks() {
     <div>
       {/* I want a dynamic list with boolean check boxes for each element
 //         I want there to be two lists side by side in the home page */}
-      <h2 className="m-5">Page Name</h2>
+      <h2 className="m-5">Self Care Activities</h2>
       <Row className="d-flex">
         <div>
           <h3>TLC To-do's</h3>
