@@ -1,5 +1,6 @@
 import { Form, Stack, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function SignUpLogin() {
   const [activity, setActivity] = useState({
@@ -39,7 +40,7 @@ export default function SignUpLogin() {
           />
         </Form.Group>
       </Form>
-      <Link to="/Home">
+      <Link to="/selfcaretasks">
         <Button size="lg" onClick={handleButtonClicked}>
           Log Me In
         </Button>
