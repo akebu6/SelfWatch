@@ -2,10 +2,13 @@
 Empowering individuals to take control of their mental health by providing a personal monitoring and support system.
 
 ## 💡 Inspiration
+The increasing prevalence of mental health issues and the lack of accessible and personalised support motivated us to undertake this project. We wanted to create a tool that would empower individuals to monitor their mental health and provide them with resources and support when needed.
 
 ## 🤔 Purpose
+SelfWatch was designed to help people practice self-care more by providing with trackers and reminders when they haven't checked-in for the day.
 
 ## What it does
+SelfWatch is a web application that allows users to track their mental health and well-being on a daily basis. Users can input their mood, energy levels, sleep quality, and other relevant factors, and the app will generate personalised insights and recommendations based on the data. Users can set goals and receive reminders to engage in self-care activities. 
 
 ## 🎨 Design
 
