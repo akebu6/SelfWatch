@@ -53,7 +53,7 @@ export class NewItem extends Component {
       <>
         <Stack>
           <Form className="m-5">
-            <Form.Group className="new-item" controlID="newItem.controlInput1">
+            <Form.Group className="new-item">
               <Form.Label>Your activities' name</Form.Label>
               <Form.Control
                 type="taskName"

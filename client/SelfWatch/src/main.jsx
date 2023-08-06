@@ -9,7 +9,7 @@ import {
   Router,
 } from "react-router-dom";
 import { Body } from "./pages/Body.jsx";
-import ErrorPage from "./pages/error-page.jsx";
+import ErrorPage from "./pages/ErrorPage.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
