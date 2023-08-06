@@ -11,25 +11,11 @@ import {
 import { Body } from "./pages/Body.jsx";
 import ErrorPage from "./pages/error-page.jsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "body/:bodyId",
-        element: <Body />,
-      },
-    ],
-  },
-]);
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <div>
-    <React.StrictMode>
-      <RouterProvider router={router} />
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
       <App />
-    </React.StrictMode>
-  </div>
+    </BrowserRouter>
+  </React.StrictMode>
 );

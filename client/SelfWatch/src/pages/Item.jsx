@@ -4,10 +4,10 @@ import Col from "react-bootstrap/esm/Col";
 import Form from "react-bootstrap/Form";
 import Stack from "react-bootstrap/Stack";
 
-export default function Item() {
+export function Item() {
   return (
     <>
-      <h3>Item variable name</h3>
+      <h2 className="m-5">Page Item</h2>
       <Stack>
         {["checkbox", "radio"].map((type) => (
           <div key={`default-${type}`} className="mb-3">

@@ -1,14 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import Container from "react-bootstrap/esm/Container";
 import Col from "react-bootstrap/esm/Col";
 import Form from "react-bootstrap/Form";
 import Stack from "react-bootstrap/Stack";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
-export function Preferences() {
-  return;
-  <>
-    <Container>
-      <h2 className="m-5">Page Name</h2>
+export function NewItem() {
+  return (
+    <>
+      <h2 className="m-5">Page Item</h2>
       <Stack>
         {["checkbox", "radio"].map((type) => (
           <div key={`default-${type}`} className="mb-3">
@@ -27,6 +28,9 @@ export function Preferences() {
           </div>
         ))}
       </Stack>
-    </Container>
-  </>;
+      <Link to="/selfcaretasks">
+        <Button size="lg">Add Activity</Button>
+      </Link>
+    </>
+  );
 }
